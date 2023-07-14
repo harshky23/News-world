@@ -1,27 +1,26 @@
 import React from "react"
+import './global.css';
 
 function News(props) {
-  const { imglink, title, desc } = props;
+  const { imglink, title, link} = props;
 
-  // Check if imglink prop is undefined or empty then will pass default props
-  const imageSrc = imglink || News.defaultProps.imglink;
 
   return (
-    <div className="card" style={{width:'18rem'}}>
-      <img src={imageSrc} className="card-img-top" alt="..." />
+    <a target="_blank" href={(link)? link : News.defaultProps.link}>
+    <div className="card" style={{width:'18rem', height:'20rem'}}>
+      <img src={(imglink)? imglink : News.defaultProps.imglink} style={{width:'18rem', height:'12rem'}}className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{desc}</p>
-        <a href="#" className="btn btn-primary">Read more</a>
+        <h7 className="card-title">{(title)? title : News.defaultProps.title}</h7>
       </div>
     </div>
+    </a>
   )
 }
 
 News.defaultProps = {
   imglink: "https://techdator.net/wp-content/uploads/2022/09/Best-News-Apps-for-iPhone-iPad-and-iOS.jpg",
   title: "Sorry, news couldn't reload",
-  desc: "Please reload"
+  link : "../pages/MainPage"
 }
 
 export default News;
