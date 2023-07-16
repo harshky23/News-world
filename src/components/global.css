@@ -1,0 +1,139 @@
+
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card{
+    height: 20rem;
+    width: 18rem;
+}
+.iconstyle{
+    font-size: 20px;
+    margin: 0 20px;
+    color: #3F72AF;
+
+}
+.iconstyle:hover{
+    color: #112D4E;
+}
+.image{
+    font-weight: 900;
+    align-self:center;
+    padding-left: 20px;
+}
+.image:hover{
+    color: #3F72AF;
+}
+.pointer{
+    cursor: pointer;
+}
+
+.custom-btn{
+    background-color: #7a9ecb;
+    font-weight: 700;
+}
+.custom-btn:hover{
+    background-color: #112D4E;
+    color: #7a9ecb;
+}
+
+.cusCard{
+    background-color: #DBE2EF ;
+}
+.cusCard:hover {
+    background-color: #7a9ecb ;
+}
+.customNavbar{
+    background-color: #DBE2EF ;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.card-title{
+    color: #112D4E;
+}
+.loading{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #3F72AF;
+
+}
+.card-title{
+    font-weight: 1000;
+}
+.logo{
+    height: 55px;
+    width: auto;
+}
+.Listcustom-btn{
+    background-color: #112D4E;
+    border-style: none;
+    font-weight: 500;
+}
+.Listcustom-btn:hover{
+    background-color: #3F72AF;
+}
+.bolt{
+    font-weight: 800;
+}
+
+/* dark mode  */
+
+.darkcustomNavbar{
+    background-color: #3F72AF ;
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
+}
+.diconstyle{
+    font-size: 20px;
+    margin: 0 20px;
+    color: #DBE2EF;
+
+}
+.diconstyle:hover{
+    color: #112D4E;
+}
+.dcusCard{
+    background-color: #3F72AF ;
+}
+.dcusCard:hover {
+    background-color: black ;
+}
+
+.dimage{
+    color: #DBE2EF;
+    font-weight: 900;
+    align-self:center;
+    padding-left: 20px;
+}
+.dimage:hover{
+    color: #112D4E;
+}
+.dcard-title{
+    color: white;
+}
+
+.number{
+    color: white;
+}
+.dnumber{
+    color: #112D4E;
+}
+.dListcustom-btn{
+    background-color: #3F72AF;
+    border-style: none;
+    font-weight: 500;
+}
+.dListcustom-btn:hover{
+    background-color: #7197c6;
+}
+
+.cusNavbar{
+    width: 100%;
+}
+
+
