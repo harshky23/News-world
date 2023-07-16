@@ -3,8 +3,8 @@ Unfortunately, I can't publish the website on GitHub Pages since the free versio
 
 or DO kindly run files in your PC on local host
 
+![ezgif-5-7f1c2e630f](https://github.com/harshky23/News-world/assets/77272906/c6b8a21c-ee2b-4818-8c30-84452a76e217)
 
-![ezgif-5-325a997044](https://github.com/harshky23/News-world/assets/77272906/733c3739-5ae1-4971-942c-8f1cd1099b52)
 
 
 # Getting Started with Create React App
